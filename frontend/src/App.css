@@ -1,0 +1,65 @@
+/* Center the h1 at the top */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Center the entire content */
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100vh;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.todoList {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,300px);
+    gap: 40px; /* Space between items */
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px ;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.Add_Todo{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#add-todo-btn{
+    background-color: lightblue;
+    border: none;
+}
+
+input{
+    padding: 10px;
+
+}
+
+#delete-todo-btn{
+    background-color: transparent;
+    border: none;
+}
+#delete-todo-img{
+    font-size: 24px;
+}
+
+.todo-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 5px;
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 5px;
+    background-color: #FDF7F4;
+
+}
+
+.TodoItem {
+    width: 250px;
+    height: 220px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+    border-top: 6px solid #DDA853;
+    border-bottom: 0.1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
