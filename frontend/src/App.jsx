@@ -4,12 +4,13 @@ import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import Todo from './pages/Todo';
 import Error from './pages/Error';
-
 import  {BrowserRouter, Route, Routes } from 'react-router-dom'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <BrowserRouter>
+    <NavBar/>
     <Routes>
       <Route exact path='/' element = { <Todo/> }></Route>
       <Route exact path='/about' element = { <About/> }></Route>

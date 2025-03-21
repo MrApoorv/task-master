@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import TodoItem from '../components/TodoItem';
 import IonIcon from '@reacticons/ionicons'
+// import NavBar from '../components/NavBar';
 
 const Todo = () => {
   const [todos, setTodos] = useState([]);
@@ -36,6 +37,8 @@ const Todo = () => {
      })
   }
   return (
+    <>
+    {/* <NavBar/> */}
     <div className="App">
       <form className='Add_Todo' onSubmit={(e)=> addTodo(e)}>
         <input type="text" name="title" id='title' placeholder='Enter Title'/>
@@ -54,6 +57,7 @@ const Todo = () => {
        }
       </div>
     </div>
+    </>
   );
 }
 
